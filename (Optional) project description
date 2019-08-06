@@ -1,0 +1,30 @@
+The project I frequently use and really interestted in is Twitter.
+
+According to the net information, Twitter storage consists of a number of tools:
+
+1.Hadoop
+    which clusters running both compute and HDFS
+2. Manhattan 
+    which clusters for all our low latency key value stores
+3. Graph 
+    which stores sharded MySQL clusters
+4. Blobstore 
+    which clusters all large objects (videos, pictures, binary files…)
+5. Cache clusters
+6. Messaging clusters
+7. Relational stores
+    (MySQL, PostgreSQL and Vertica)
+    
+   
+  Out of all that, the biggest one is Hadoop (which is obvious, as Hadoop is an DFS for Big Gata storages). 
+  The second one is also a Storage System - Manhattan - that was created by Twitter themselves.
+  And the third is a MySQL database.
+  All of the rest ones are either NoSQL or Graph databases, that are also popular these days.
+  
+  By the third link it is said that Twitter has has plans on moving to it's own datacenters, so it's probably impossible to say how much 
+  exactly it has now. But it's possible to say that over 70 servers.
+  
+  Useful Links:
+  https://blog.twitter.com/engineering/en_us/topics/infrastructure/2017/the-infrastructure-behind-twitter-scale.html
+  https://blog.twitter.com/engineering/en_us/a/2014/manhattan-our-real-time-multi-tenant-distributed-database-for-twitter-scale.html
+  https://www.quora.com/How-many-servers-does-Twitter-have
