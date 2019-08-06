@@ -1,0 +1,25 @@
+Studies Project Description:
+
+A Wallet project is a simplified version of a Wallet application platform. 
+
+The general idea is to create an OLTP Relational database architecture, that 
+1. has a regularly updated queue of incoming events (JSON's)
+2. parses them by their key values
+3. Runs dependent correct DDL/DML on vocabularies and meta tables
+4. Has internal features for
+    - data validation checks
+    - data monitorings
+5. Generates views for data statistics of a users involved
+6. Makes regular backups
+7. Runs alerts on misbehaviours
+8. Runs required JOBs on Data features (e.g. rebuild views, generate export scv files etc.)
+9. Has additional ETL features.
+
+Main Objects of its current OOP model are:
+- person
+- wallet
+- card
+- offer issuer
+- offer
+
+Those objects can also have subobjects, such as Card_types etc.
